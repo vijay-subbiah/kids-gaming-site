@@ -7,7 +7,7 @@
             "id": 1,
             "name": "Math Quest",
             "description": "Solve math puzzles to win!",
-            "thumb": "assets/images/math-quest.png",
+            "thumb": "https://placehold.co/300x200?text=Math+Quest",
             "difficulty": "Easy",
             "url": "#"
         },
@@ -15,7 +15,7 @@
             "id": 2,
             "name": "Word Wizard",
             "description": "Find hidden words in a grid.",
-            "thumb": "assets/images/word-wizard.png",
+            "thumb": "https://placehold.co/300x200?text=Word+Wizard",
             "difficulty": "Medium",
             "url": "#"
         },
@@ -23,7 +23,7 @@
             "id": 3,
             "name": "Memory Match",
             "description": "Test your memory skills!",
-            "thumb": "assets/images/memory-match.png",
+            "thumb": "https://placehold.co/300x200?text=Memory+Match",
             "difficulty": "Hard",
             "url": "#"
         }
