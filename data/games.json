@@ -1,0 +1,31 @@
+{
+    "siteTitle": "Kids Gaming Site",
+    "tagline": "Fun and Learning for Everyone!",
+    "countdownTarget": "2025-12-31T23:59:59Z",
+    "games": [
+        {
+            "id": 1,
+            "name": "Math Quest",
+            "description": "Solve math puzzles to win!",
+            "thumb": "assets/images/math-quest.png",
+            "difficulty": "Easy",
+            "url": "#"
+        },
+        {
+            "id": 2,
+            "name": "Word Wizard",
+            "description": "Find hidden words in a grid.",
+            "thumb": "assets/images/word-wizard.png",
+            "difficulty": "Medium",
+            "url": "#"
+        },
+        {
+            "id": 3,
+            "name": "Memory Match",
+            "description": "Test your memory skills!",
+            "thumb": "assets/images/memory-match.png",
+            "difficulty": "Hard",
+            "url": "#"
+        }
+    ]
+}

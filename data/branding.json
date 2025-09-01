@@ -1,0 +1,9 @@
+{
+    "logo": "",
+    "favicon": "",
+    "slogan": "",
+    "contact": {"email": "", "mobile": ""},
+    "socialMedia": {"linkedin": "", "instagram": "", "github": "", "x": "", "youtube": ""},
+    "chatbot": {"avatar": "", "face": ""},
+    "theme": {"colors": {"primary": "#FFDF00", "secondary": "#004040"}, "font": "Arial, sans-serif"}
+}

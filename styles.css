@@ -1,0 +1,92 @@
+:root {
+  --primary: #FFDF00;
+  --accent: #004040;
+  --bg: #ffffff;
+  --text: #222222;
+  --font: Arial, sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background: var(--primary);
+  padding: 1rem;
+  border-bottom: 2px solid var(--accent);
+}
+
+#logo {
+  height: 48px;
+  margin-right: 1rem;
+  border-radius: 8px;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: var(--primary);
+  color: var(--accent);
+  border-radius: 12px;
+  margin: 1rem auto;
+  max-width: 600px;
+}
+
+.games-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.game-card {
+  background: var(--primary);
+  color: var(--accent);
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.game-card:focus-within, .game-card:hover {
+  transform: scale(1.03);
+  outline: 2px solid var(--accent);
+}
+
+button, .btn {
+  background: var(--accent);
+  color: var(--primary);
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background 0.2s;
+}
+
+button:focus, .btn:focus {
+  outline: 2px solid var(--primary);
+}
+
+#social-icons a {
+  margin: 0 0.5rem;
+  display: inline-block;
+}
+
+footer {
+  background: var(--accent);
+  color: var(--primary);
+  text-align: center;
+  padding: 1rem;
+  border-top: 2px solid var(--primary);
+}
+
+/* TODO: student exercise: Add more styles for accessibility and responsiveness */
