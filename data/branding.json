@@ -1,9 +1,18 @@
 {
-    "logo": "",
-    "favicon": "",
-    "slogan": "",
-    "contact": {"email": "", "mobile": ""},
-    "socialMedia": {"linkedin": "", "instagram": "", "github": "", "x": "", "youtube": ""},
-    "chatbot": {"avatar": "", "face": ""},
+    "logo": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/logos/logo-of-here-and-now-ai.png",
+    "favicon": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/logos/favicon-logo-with-name.png",
+    "slogan": "designed with passion for innovation",
+    "contact": {"email": "info@hereandnowai.com", "mobile": "+91 996 296 1000"},
+    "socialMedia": {
+        "linkedin": "https://www.linkedin.com/company/hereandnowai/",
+        "instagram": "https://instagram.com/hereandnow_ai",
+        "github": "https://github.com/hereandnowai",
+        "x": "https://x.com/hereandnow_ai",
+        "youtube": "https://youtube.com/@hereandnow_ai"
+    },
+    "chatbot": {
+        "avatar": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/logos/caramel.jpeg",
+        "face": "https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/logos/caramel-face.jpeg"
+    },
     "theme": {"colors": {"primary": "#FFDF00", "secondary": "#004040"}, "font": "Arial, sans-serif"}
 }
